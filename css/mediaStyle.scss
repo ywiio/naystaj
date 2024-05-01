@@ -1,0 +1,153 @@
+@media (max-width: 1135px) {
+    .home__team-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .header {
+        &__menu {
+            display: none;
+        }
+    }
+    .burger-menu {
+        display: block;
+    }
+    .home {
+        &__hero {
+            h1 {
+                font-size: 30px;
+            }
+        }
+        &__about {
+            &-btns button {
+                width: 50%;
+            }
+
+&-photo {
+    div {
+        flex-direction: column;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+        }
+        &__cta {
+            div {
+                width: 50%;
+                p {
+                    font-size: 24px;
+                }
+            }
+        }
+        &__tours {
+            flex-direction: column;
+
+            &-filter-block {
+                margin: 10px 0;
+                &-title {
+                    width: 100%;
+                    img {
+                        display: block;
+                    }
+                }
+                &-list {
+                    display: none;
+                    label {
+                        height: 34px;
+                    }
+                }
+            }
+            &-cards {
+                justify-content: space-between;
+            }
+        }
+        &__contact {
+            &-block {
+                flex-direction: column;
+                gap: 26px;
+                .text {
+                    gap: 15px;
+                }
+                .text,
+                img,
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .footer {
+        flex-direction: column;
+
+        &__logo {
+            gap: 15px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .home {
+        &__team {
+            &-card {
+                .info {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .home {
+        &__team {
+            img {
+                width: 100%;
+                height: auto;
+            }
+            &-card {
+                flex-direction: column;
+            }
+        }
+        &__about{
+            &-btns{
+                div{
+                    display: none;
+                }
+                button{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .home {
+        &__team {
+            img {
+                width: 100%;
+                height: auto;
+            }
+            &-card {
+                flex-direction: column;
+            }
+        }
+    }
+    .footer {
+        &__logo {
+            .first {
+                img {
+                    width: 70px;
+                }
+                h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

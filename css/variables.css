@@ -1,0 +1,40 @@
+@import url("/fonts/Travels/stylesheet.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "TT Travels", serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #282828;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #282A04;
+}
+
+button {
+  background-color: #ffffff;
+  color: #282A04;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  height: 52px;
+  width: 200px;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=variables.css.map */

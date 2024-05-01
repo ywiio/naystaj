@@ -1,0 +1,107 @@
+@media (max-width: 1135px) {
+  .home__team-card {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  .header__menu {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .home__hero h1 {
+    font-size: 30px;
+  }
+  .home__about-btns button {
+    width: 50%;
+  }
+  .home__about-photo div {
+    flex-direction: column;
+    height: 100%;
+  }
+  .home__about-photo div img {
+    width: 100%;
+    height: 100%;
+  }
+  .home__cta div {
+    width: 50%;
+  }
+  .home__cta div p {
+    font-size: 24px;
+  }
+  .home__tours {
+    flex-direction: column;
+  }
+  .home__tours-filter-block {
+    margin: 10px 0;
+  }
+  .home__tours-filter-block-title {
+    width: 100%;
+  }
+  .home__tours-filter-block-title img {
+    display: block;
+  }
+  .home__tours-filter-block-list {
+    display: none;
+  }
+  .home__tours-filter-block-list label {
+    height: 34px;
+  }
+  .home__tours-cards {
+    justify-content: space-between;
+  }
+  .home__contact-block {
+    flex-direction: column;
+    gap: 26px;
+  }
+  .home__contact-block .text {
+    gap: 15px;
+  }
+  .home__contact-block .text,
+  .home__contact-block img,
+  .home__contact-block iframe {
+    width: 100%;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer__logo {
+    gap: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .home__team-card .info {
+    padding: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .home__team img {
+    width: 100%;
+    height: auto;
+  }
+  .home__team-card {
+    flex-direction: column;
+  }
+  .home__about-btns div {
+    display: none;
+  }
+  .home__about-btns button {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .home__team img {
+    width: 100%;
+    height: auto;
+  }
+  .home__team-card {
+    flex-direction: column;
+  }
+  .footer__logo .first img {
+    width: 70px;
+  }
+  .footer__logo .first h2 {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=mediaStyle.css.map */

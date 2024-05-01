@@ -1,0 +1,56 @@
+@import url('/fonts/Travels/stylesheet.css');
+
+$black: #282828;
+$white: #ffffff;
+$green:#282A04;
+
+@mixin btn{
+    background-color: $white;
+    color: $green;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 52px;
+    width: 200px;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+
+@mixin h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: $green;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'TT Travels', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: $black;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    @include h1;
+}
+h2{
+    @include h2;
+}
+button{
+    @include btn()
+}
